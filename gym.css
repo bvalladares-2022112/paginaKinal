@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-color: #191919;
+    text-align: center;
+    padding: 25px;
+}
+
+.navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+.navbar a:hover{
+    background-color: #bbb;
+    color: rgb(196, 32, 32);
+}
+
+.header-img{
+    background-image: url(Images/gym.webp);
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
+
+.header-img p{
+    font-size: 25px;
+}
+
+.header-img h1{
+    font-size: 100px;
+}
+
+.about-gym {
+    padding: 50px 0;
+    background-color: #191919;
+    color: #ffff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    flex: 2;
+}
+.why-like-gym {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.why-like-gym .container {
+    flex-direction: row-reverse; 
+}
+
+.info {
+    flex: 1;
+    padding: 20px;
+}
+
+.info h2 {
+    margin-top: 0;
+}
+
+.image {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.favorite-bodybuilders {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.favorite-bodybuilders h2 {
+    margin-bottom: 30px;
+}
+
+.bodybuilder {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.bodybuilder img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}

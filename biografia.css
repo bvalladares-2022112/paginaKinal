@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #bbb;
+}
+
+.about-me {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about-me .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-picture {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.profile-picture img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 10px; 
+    object-fit: cover;
+}
+
+
+.bio {
+    flex: 2;
+    text-align: left;
+}
+
+.bio h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.bio p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.education {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.education .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.education h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.education-item {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.education-item h3 {
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.education-item p {
+    color: #777;
+    margin: 0;
+}
+
+.expectations {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.expectations .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.expectations-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expectations-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.expectations-content p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.skills-goals {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.skills-goals .container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-goals h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.skills-goals ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-goals li {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+
+
